@@ -1,0 +1,333 @@
+#Parrafo1 {
+    color: brown;
+    /*color de texto*/
+    font-weight: bold;
+    /*ancho de texto*/
+    text-align: right;
+    /*Alineado derecha*/
+}
+
+#Parrafo2 {
+    color: green;
+    font-weight: light;
+    text-align: center;
+}
+
+#Parrafo3 {
+    color: blue;
+    text-transform: uppercase;
+    /*Mayúscula*/
+    text-align: justify;
+}
+
+.ClaseParrafos {
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+#div1 {
+    background-color: burlywood;
+    margin: 20px;
+}
+
+#div2 {
+    background-color: burlywood;
+    margin-left: 20px;
+}
+
+#div3 {
+    background-color: burlywood;
+    margin-right: 20px;
+}
+
+#div4 {
+    background-color: burlywood;
+    margin: 40px;
+    padding: 20px;
+}
+
+#div5 {
+    background-color: burlywood;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
+}
+
+#img1 {
+    border: 5px solid red;
+    /*tamaño tipo color*/
+    width: 30%;
+}
+
+#img2 {
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+
+#img3 {
+    width: 30%;
+    opacity: 0.5;
+    /*De 0 a 1. 0= muy opaco 1=sin opacidad*/
+}
+
+#img3:hover {
+    opacity: 1;
+    width: 32%;
+}
+
+#fondo_color {
+    background-color: rgb(172, 241, 246);
+    height: 1500px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#fondo_imagen {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkF_WldtGuAKY_bO2WxQbTBFhAojSe9iBCw&s");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    background-size: Cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#fondo_fijo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkF_WldtGuAKY_bO2WxQbTBFhAojSe9iBCw&s");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    background-size: Cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.5;
+
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#deg1 {
+    height: 200px;
+    background-image: linear-gradient(blue, skyblue);
+}
+
+#deg2 {
+    height: 200px;
+    background-image: linear-gradient(blue, white, green);
+}
+
+#deg3 {
+    height: 200px;
+    background-image: linear-gradient(to right, green, yellow, red);
+}
+
+.contenedor {
+    display: flex;
+}
+
+.div_izquierda {
+    width: 50%;
+    /* Ambos divs ocuparán el 50% del ancho del contenedor*/
+    height: 400px;
+    background-color: greenyellow;
+    margin-right: 10px;
+}
+
+.div_derecha {
+    width: 50%;
+    /* Ambos divs ocuparán el 50% del ancho del contenedor*/
+    background-color: aqua;
+
+}
+
+#footer {
+    background-color: #337AB7;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+    /*sombra*/
+    font-size: small;
+    /*Tamaño:pequeña*/
+
+}
+
+#cabecera {
+    background-color: #EEEEEE;
+    padding: 10px;
+    /*margen-interno*/
+    color: #539cdc;
+}
+
+#menu {
+    background-color: #337AB7;
+    padding: 10px;
+    margin-bottom: 5px;
+    /*margen bajo*/
+}
+
+a.item_menu {
+    color: white;
+    /*Color de texto*/
+    text-decoration: none;
+    /*Quitar subrayado*/
+    padding-top: 10px;
+    /*arriba*/
+    padding-bottom: 10px;
+    /*abajo*/
+    padding-left: 5px;
+    /*izq*/
+    padding-right: 5px;
+    /*der*/
+}
+
+a.item_menu:hover {
+    background-color: #539cdc;
+    /*Color de fondo*/
+}
+
+/*DROPDOWN------------------*/
+/* 1 Contenedor del dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 2 Menú desplegable (oculto or defecto)*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* 3 Opciones dentro del dropdown */
+.dropdown-content a {
+    color: #333;
+    padding: 10x 15px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1x solid #eee;
+}
+
+/* 4 Efecto al asar el ratón sobre una opción */
+.dropdown-content a :hover {
+    background-color: #337AB7;
+    color: white;
+}
+
+/* 5 Mostrara el menú al pasar el mouse sobre el contenedor */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 6 Cambuiar color del botón al pasar el mouse */
+.dropdown:hover .dropbtn {
+    background-color: #2980b9;
+}
+
+/* FIN DE DROPDOWN-----------------*/
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 1s;
+}
+#transicion:hover{
+    width: 200px;
+}
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo1{
+    from{background-color: blue;}
+    to{background-color: red;}
+}
+
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ejemplo2{
+    0%{left : 0px; top: 0px;}
+    25%{left : 200px; top: 0px;}
+    50%{left : 200px; top: 200px;}
+    75%{left : 0px; top: 200px;}
+    100%{left : 0px; top: 0px;}
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+td{
+    padding: 8px;
+    color: black;
+    vertical-align: middle;
+}
+
+.caja_de_texto{
+    width: 250px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 14px;
+    color: blue;
+    font-weight: bold;
+}
+
+#boton_enviar{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#boton_enviar:hover{
+    background-color: #32cd32;
+}
+
+#boton_borrar{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:10px;
+}
+#boton_borrar:hover{
+    background-color: #ff6666;
+}
